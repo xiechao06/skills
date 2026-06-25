@@ -1,0 +1,17 @@
+{
+  "name": "xiechao-skills",
+  "version": "0.1.0",
+  "description": "Personal skills and extensions for pi",
+  "type": "module",
+  "private": true,
+  "keywords": [
+    "pi-package",
+    "skills",
+    "pi"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
