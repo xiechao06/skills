@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "words": [
+    {
+      "id": "d94983bd-d9c4-4f36-bedc-2112cd41f35d",
+      "word": "enact",
+      "phonetic": "/ɪˈnækt/",
+      "definition": "To perform or carry out; to act out or portray.",
+      "daily_usage": "The actors enact the battle scene. / Congress will enact new environmental regulations.",
+      "other_senses": [
+        "to make into law"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "action",
+        "performance"
+      ],
+      "category": 1,
+      "consecutive_correct": 0,
+      "total_reviews": 1,
+      "correct_reviews": 1,
+      "last_reviewed": "2026-06-26",
+      "date_added": "2026-06-26"
+    }
+  ]
+}
