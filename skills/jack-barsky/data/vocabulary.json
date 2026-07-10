@@ -17,12 +17,277 @@
         "action",
         "performance"
       ],
+      "category": 2,
+      "consecutive_correct": 0,
+      "total_reviews": 5,
+      "correct_reviews": 4,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-06-26"
+    },
+    {
+      "id": "8b6fa138-cbca-4e7e-a6fd-eac5e87c5cc5",
+      "word": "facade",
+      "phonetic": "",
+      "definition": "The principal front of a building, especially its most decorative or prominent face.",
+      "daily_usage": "The museum's facade is made entirely of glass. / Workers restored the building's crumbling facade.",
+      "other_senses": [
+        "a deceptive outward appearance",
+        "(computing) a structural design pattern that provides a simplified, unified interface to a complex subsystem or body of code"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "architecture",
+        "vocabulary",
+        "design-pattern",
+        "computing"
+      ],
+      "category": 2,
+      "consecutive_correct": 1,
+      "total_reviews": 4,
+      "correct_reviews": 3,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-06-26"
+    },
+    {
+      "id": "2af6526f-9861-465b-ae6f-90caa4447dd1",
+      "word": "tautological",
+      "phonetic": "",
+      "definition": "Expressing the same idea twice using different words; needlessly repetitive in meaning.",
+      "daily_usage": "Free gift is a tautological phrase — a gift is already free by definition. / Saying past history is tautological since history is always in the past.",
+      "other_senses": [
+        "(logic) always true by structure, regardless of content"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "language",
+        "logic",
+        "writing"
+      ],
+      "category": 2,
+      "consecutive_correct": 0,
+      "total_reviews": 4,
+      "correct_reviews": 3,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-06-26"
+    },
+    {
+      "id": "3078347f-89ed-44c5-a9d9-8cbf3ea8ebcc",
+      "word": "twofold",
+      "phonetic": "",
+      "definition": "Double in amount or degree; twice as much or as many.",
+      "daily_usage": "Sales grew twofold this year. / The plan has a twofold benefit — it saves time and money.",
+      "other_senses": [
+        "having two distinct parts or elements",
+        "doubly (adverb use)"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "quantity",
+        "adjective"
+      ],
+      "category": 1,
+      "consecutive_correct": 1,
+      "total_reviews": 4,
+      "correct_reviews": 2,
+      "last_reviewed": "2026-07-10",
+      "date_added": "2026-06-29"
+    },
+    {
+      "id": "5f4abf03-dfca-4753-a447-7f680725006d",
+      "word": "clutter",
+      "phonetic": "",
+      "definition": "A disordered jumble of things taking up space; mess.",
+      "daily_usage": "There's too much clutter on my desk. / Build steps, tests and conventions might clutter a README.",
+      "other_senses": [
+        "(verb) to fill or cover with untidy things",
+        "background echoes on radar (technical)"
+      ],
+      "register": "informal",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "noun",
+        "verb",
+        "everyday"
+      ],
+      "category": 2,
+      "consecutive_correct": 0,
+      "total_reviews": 3,
+      "correct_reviews": 2,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-06-29"
+    },
+    {
+      "id": "c1dccf8b-b7b8-4fc5-b812-1d09af064bd3",
+      "word": "jumble",
+      "phonetic": "",
+      "definition": "A confused mixture of unrelated things thrown together.",
+      "daily_usage": "A jumble of stationeries on the desk. / All of the concepts seemed to jumble together in my head.",
+      "other_senses": [
+        "(verb) to mix or confuse things",
+        "items for a rummage sale (British English)"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "noun",
+        "verb",
+        "everyday"
+      ],
+      "category": 2,
+      "consecutive_correct": 0,
+      "total_reviews": 3,
+      "correct_reviews": 2,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-06-29"
+    },
+    {
+      "id": "4aa94c96-a432-4865-ab43-4ce40a4bb81c",
+      "word": "incomprehensible",
+      "phonetic": "",
+      "definition": "Impossible or very difficult to understand.",
+      "daily_usage": "The lecture was full of jargon and completely incomprehensible to beginners.",
+      "other_senses": [
+        "Beyond understanding",
+        "unfathomable"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "communication"
+      ],
+      "category": 2,
+      "consecutive_correct": 0,
+      "total_reviews": 3,
+      "correct_reviews": 3,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-07-01"
+    },
+    {
+      "id": "79c28651-1d72-4954-8807-358938997132",
+      "word": "consist",
+      "phonetic": "",
+      "definition": "To be made up or composed of something.",
+      "daily_usage": "The salad consists of lettuce, tomatoes, and cucumbers. / The team consists of five engineers.",
+      "other_senses": [
+        "consist in — to have as the main/essential part (e.g., The beauty of the plan consists in its simplicity.)"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "verbs",
+        "prepositional-verbs"
+      ],
+      "category": 1,
+      "consecutive_correct": 1,
+      "total_reviews": 2,
+      "correct_reviews": 2,
+      "last_reviewed": "2026-07-10",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "451edf26-38df-469c-89c5-5c2dd8fc7205",
+      "word": "nuance",
+      "phonetic": "",
+      "definition": "A subtle, delicate difference or distinction, especially in meaning, expression, or tone.",
+      "daily_usage": "The two paintings are similar, but if you look closely you can appreciate the nuances. / He lacks social nuance — he can't read the room.",
+      "other_senses": [
+        "(verb, less common) to treat or present with subtle distinctions — e.g., a nuanced argument"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "nouns",
+        "communication"
+      ],
       "category": 1,
       "consecutive_correct": 0,
       "total_reviews": 1,
       "correct_reviews": 1,
-      "last_reviewed": "2026-06-26",
-      "date_added": "2026-06-26"
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "7a95a03f-c557-4ffa-8048-b80b94706ae3",
+      "word": "assiduously",
+      "phonetic": "",
+      "definition": "With great care, dedication, and persistent effort.",
+      "daily_usage": "She assiduously studied for the exam, going over every chapter twice. / He worked assiduously on the project for months.",
+      "other_senses": [
+        "assiduous (adj.) — showing careful, persistent effort"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "adverbs",
+        "effort"
+      ],
+      "category": 1,
+      "consecutive_correct": 0,
+      "total_reviews": 1,
+      "correct_reviews": 1,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "462c2273-370b-4cde-b0a0-e62a0ec16bdb",
+      "word": "perseverance",
+      "phonetic": "",
+      "definition": "Steady persistence in doing something despite difficulties, obstacles, or discouragement.",
+      "daily_usage": "Her perseverance through years of rejection finally paid off when she got published. / Learning a language takes patience and perseverance.",
+      "other_senses": [
+        "persevere (v.) — to continue despite difficulty",
+        "perseverant (adj.) — showing perseverance"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "nouns",
+        "effort",
+        "character"
+      ],
+      "category": 1,
+      "consecutive_correct": 0,
+      "total_reviews": 1,
+      "correct_reviews": 1,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "d8bd44f2-a1fb-4de1-9708-b36ad28865cf",
+      "word": "division",
+      "phonetic": "",
+      "definition": "A part, section, or segment into which something is divided or split.",
+      "daily_usage": "The book is organized into three main divisions. / Each division of the company handles a different product line.",
+      "other_senses": [
+        "act of dividing (e.g., division of labor)",
+        "disagreement (e.g., divisions within the group)",
+        "math operation (e.g., long division)"
+      ],
+      "register": "neutral",
+      "everyday_use": true,
+      "tags": [
+        "vocabulary",
+        "nouns",
+        "organization"
+      ],
+      "category": 1,
+      "consecutive_correct": 0,
+      "total_reviews": 1,
+      "correct_reviews": 1,
+      "last_reviewed": "2026-07-03",
+      "date_added": "2026-07-02"
     }
   ]
 }
