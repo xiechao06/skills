@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "as_of": "2026-07-22",
+    "timezone": "Asia/Shanghai",
+    "author": "pi-agent",
+    "framework": "layered-collapse-three-groups",
+    "title": "AI泡沫三组指标监控报告",
+    "summary": "一句话总判断（生成前可先空着，脚本也会根据 status 合成）。"
+  },
+  "group1_capital_coverage": {
+    "name": "资本覆盖",
+    "status": "yellow",
+    "rcr": {
+      "value": 0.35,
+      "range_low": 0.2,
+      "range_high": 0.5,
+      "unit": "ratio",
+      "method_note": "外部AI毛利/年化资本负担；环内回流已尽量剔除或说明。",
+      "confidence": "low"
+    },
+    "hyperscaler_capex_usd_bn": {
+      "value": 725,
+      "period": "2026E",
+      "companies": ["MSFT", "AMZN", "GOOGL", "META"],
+      "yoy_pct": 77,
+      "confidence": "medium"
+    },
+    "ai_capex_share_pct": {
+      "value": 70,
+      "confidence": "low"
+    },
+    "model_lab_revenue_usd_bn": {
+      "openai": 25,
+      "anthropic": 47,
+      "combined_top2": 70,
+      "metric_type": "ARR_or_run_rate",
+      "water_risk": "high",
+      "confidence": "low"
+    },
+    "annual_revenue_needed_usd_bn": {
+      "value": 175,
+      "note": "覆盖当年新增资产年贡的门槛收入（毛利前/后请在 note 说明）",
+      "confidence": "low"
+    },
+    "fcf_stress_note": "四大 FCF 是否因 capex 显著受压。",
+    "notes": "补充口径与不确定性。",
+    "traffic_lights": {
+      "rcr": "red",
+      "capex_vs_revenue_gap": "red",
+      "fcf": "yellow"
+    }
+  },
+  "group2_demand_conversion": {
+    "name": "需求转化",
+    "status": "red",
+    "pilot_to_prod_pct": {
+      "value": 14,
+      "source_name": "Deloitte",
+      "as_of": "2026-03",
+      "threshold_yellow": 25,
+      "threshold_red": 15,
+      "confidence": "medium"
+    },
+    "nrr_pct": {
+      "value": 32,
+      "segment": "ai_tools_blended_or_proxy",
+      "saas_benchmark_pct": 118,
+      "confidence": "low"
+    },
+    "gross_margin_trend": {
+      "direction": "down",
+      "delta_pct_points": 5,
+      "usage_up": true,
+      "confidence": "low"
+    },
+    "roi_surveys": [
+      {
+        "org": "BCG",
+        "finding": "约26%企业称AI产生实质财务价值",
+        "as_of": "2026"
+      },
+      {
+        "org": "IBM",
+        "finding": "约56% CEO称无显著财务收益",
+        "as_of": "2026"
+      }
+    ],
+    "notes": "",
+    "traffic_lights": {
+      "pilot_to_prod": "red",
+      "nrr": "red",
+      "gross_margin": "yellow"
+    }
+  },
+  "group3_financing_pressure": {
+    "name": "融资压力",
+    "status": "yellow",
+    "down_round_pct": {
+      "value": 11.4,
+      "including_acquihire_pct": 19.0,
+      "threshold_yellow": 20,
+      "threshold_red": 30,
+      "confidence": "medium"
+    },
+    "bridge_round_pct": {
+      "value": null,
+      "threshold_yellow": 35,
+      "threshold_red": 50,
+      "confidence": "unknown"
+    },
+    "secondary_discount_pct": {
+      "value": null,
+      "threshold_yellow": 15,
+      "threshold_red": 25,
+      "confidence": "unknown"
+    },
+    "cloud_dso_days": {
+      "value": null,
+      "delta_days": null,
+      "note": "拉长=供应商放账",
+      "confidence": "unknown"
+    },
+    "acquihire_examples": [],
+    "notes": "流动性尚未烧完，但一级市场非线性。",
+    "traffic_lights": {
+      "down_rounds": "green",
+      "bridge": "unknown",
+      "secondary": "unknown",
+      "dso": "unknown"
+    }
+  },
+  "synthesis": {
+    "systemic_signal": false,
+    "systemic_rule": "三组同时 red 才标系统性去杠杆；两组 red + 一组 yellow 可标高压预警",
+    "worst_group": "group2_demand_conversion",
+    "horizon_note": "未来4–8个季度观察尾部压力是否持续显性化",
+    "collapse_shape": "layered",
+    "investment_caveat": "本报告是行业融资/需求结构监控，不是个股买卖信号；股价更受流动性驱动。",
+    "key_risks": [
+      "企业ROI与NRR持续疲软",
+      "Capex仍高增而RCR远低于1"
+    ],
+    "key_offsets": [
+      "Hyperscaler现金流与融资能力仍强",
+      "一级市场down round尚未过红线"
+    ],
+    "next_checkpoints": [
+      "下一季四大云capex指引与FCF",
+      "Carta/PitchBook down round与bridge占比",
+      "头部AI应用NRR与毛利率"
+    ]
+  },
+  "sources": [
+    {
+      "metric": "example",
+      "title": "Example source",
+      "url": "https://example.com",
+      "date": "2026-07-01",
+      "excerpt": "Replace with real citations."
+    }
+  ],
+  "data_gaps": [
+    "列出本次未能核实的关键字段"
+  ]
+}

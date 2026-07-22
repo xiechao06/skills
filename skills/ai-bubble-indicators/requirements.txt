@@ -1,0 +1,1 @@
+# stdlib-only runtime is enough; keep file for venv bootstrap consistency
