@@ -288,6 +288,30 @@
       "correct_reviews": 1,
       "last_reviewed": "2026-07-03",
       "date_added": "2026-07-02"
+    },
+    {
+      "id": "5d94c975-4a4a-4e47-b2fa-dde76d147776",
+      "word": "canonicalize",
+      "phonetic": "",
+      "definition": "To convert something into its canonical (standard, preferred) form so equivalent values match and can be processed consistently.",
+      "daily_usage": "We canonicalize URLs before caching them. / The import step canonicalizes field names to snake_case.",
+      "other_senses": [
+        "to reduce an expression to a unique normal form (math/logic)",
+        "to put data into an official standard representation"
+      ],
+      "register": "formal",
+      "everyday_use": false,
+      "tags": [
+        "vocabulary",
+        "computing",
+        "data"
+      ],
+      "category": 0,
+      "consecutive_correct": 0,
+      "total_reviews": 0,
+      "correct_reviews": 0,
+      "last_reviewed": null,
+      "date_added": "2026-07-14"
     }
   ]
 }
